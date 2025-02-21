@@ -44,3 +44,21 @@ A simple **React.js** project styled with **Tailwind CSS** and utilizing **React
 - **Build Tool:** Vite *(Optional, if used)*  
 
 ---
+**Milestone 9**
+CreateProduct Component
+
+Overview
+
+The CreateProduct component is a React functional component that allows users to create a product by filling out a form with details such as email, name, description, category, tags, price, stock, and images.
+
+Features
+
+Form inputs for product details
+
+File upload functionality for product images
+
+Image preview before submission
+
+Category selection from a predefined list
+
+Uses React state (useState) to manage form data
