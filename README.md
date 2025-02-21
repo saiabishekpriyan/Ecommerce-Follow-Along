@@ -63,6 +63,23 @@ Category selection from a predefined list
 
 Uses React state (useState) to manage form data
 
+**MILESTONE 3**
+Key Features of Milestone 3 🛠
+1. Backend Folder Structure
+Establish a well-organized hierarchy for managing routes, controllers, models, and middleware to ensure clarity and maintainability.
+2. Server Setup
+Utilize Node.js and Express to build a backend server.
+Configure the server to listen on a specified port for handling incoming requests.
+3. Database Connection
+Integrate MongoDB for reliable and efficient data storage.
+Ensure a successful connection between the server and the database.
+4. Error Handling
+Implement structured error messages to improve debugging and enhance user feedback.
+Milestone 3 Achievements 
+Set up the backend folder structure.
+Configured and connected the server to MongoDB.
+Developed basic error-handling mechanisms for better system stability
+
 **MILESTONE 4**
 Steps for Milestone 4 
 Creating the User Model
