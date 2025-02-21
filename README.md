@@ -115,6 +115,53 @@ Save the hashed password in the database instead of plain text.
 Store Complete User Data:
 Save all the user's data (e.g., name, email, etc.) in the database while ensuring that the password remains encrypted
 
+# **Milestone 7**: User Login Authentication 
+
+## Overview 
+In this milestone, we have implemented a **backend endpoint for user login**, focusing on:
+- Validating user credentials
+- Verifying the encrypted password stored in the database
+
+## Learning Goals 
+By completing this milestone, we have:
+- Understood how to validate user credentials during login
+- Learned how to compare the encrypted password with the user’s input
+
+## Why Encrypt Passwords? 
+Storing passwords securely is crucial for:
+**Protecting user data** (even if the database is compromised)
+ **Ensuring privacy** by avoiding plaintext storage
+ **Meeting security standards** like GDPR and PCI-DSS
+ **Preventing password theft** by making hashed passwords difficult to crack
+
+## How Login Authentication Works 
+1️ **User enters credentials:** Email/username and password are submitted via the login page.
+2️ **Fetch user data:** The backend retrieves user details using the provided email/username.
+   - If the user **does not exist**, return an error: `User does not exist.`
+3️ **Compare encrypted passwords:**
+   - The input password is hashed using the same algorithm (e.g., bcrypt).
+   - The new hash is compared to the stored hashed password.
+   - If they match, authentication is successful. Otherwise, return an error.
+
+## Steps Implemented 
+### 1. **Created a Login Endpoint**
+- Accepts user credentials (email/username and password)
+- Retrieves the corresponding user from the database
+
+### 2. **Validated Password Using bcrypt**
+- The user’s entered password is hashed
+- Compared it with the stored hashed password
+- If matched, authentication is successful
+
+**Note:** Password hashing is a **one-way process**; we compare hashes instead of decrypting passwords.
+
+## Technologies Used 
+- **Node.js** & **Express.js** (Backend API)
+- **MongoDB** (Database)
+- **bcrypt** (Password hashing)
+- **JWT (JSON Web Token)** for authentication (optional future implementation)
+
+
 
 **Milestone 9**
 CreateProduct Component
