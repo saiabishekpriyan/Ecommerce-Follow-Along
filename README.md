@@ -98,3 +98,23 @@ It functions like a manager that organizes requests and responses, similar to ho
 Users may need to upload profile pictures or other files.
 To handle this, we use Multer, a middleware that simplifies file uploads and storage.
 Multer helps keep track of uploaded images in the backend, acting like a virtual file cabinet for storing pictures efficiently.
+
+**MILESTONE 5**
+Frontend Development - User Registration
+Key Accomplishments
+Designed the frontend UI for user registration.
+Implemented input validation for fields like email and password to ensure data integrity.
+Documented progress and updates in the README file.
+The Sign-Up Page 
+The Sign-Up Page is where users enter their details to create an account. This page includes essential input fields such as:
+
+Name
+Email
+Password
+Users provide their information, which is then submitted to the server for processing. The goal was to create a simple, clean, and user-friendly sign-up form that enhances the registration experience.
+
+Steps for Milestone 5 
+In this milestone, we focused on frontend development with guidance from a mentor, covering:
+
+Building the Sign-Up Page using HTML and CSS.
+Adding form validation to ensure users input valid data before submission.

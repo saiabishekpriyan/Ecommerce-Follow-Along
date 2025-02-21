@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Loginpage from "./pages/Login"
 import Navbar from "./pages/Navbar";
 import login from "./components/login";
+import signup from"./components/signup";
 
 
 function App() {
