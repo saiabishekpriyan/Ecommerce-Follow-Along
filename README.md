@@ -1,11 +1,11 @@
 # Ecommerce-Follow-Along
 
 
-# 🛒 E-Commerce Backend  
+**Milestone 1**- E-Commerce Backend  
 
 A robust and scalable backend system designed for managing an e-commerce platform. Built with [insert your tech stack, e.g., Node.js, Express.js, MongoDB], this backend efficiently handles product management, user authentication, order processing, and more.  
 
-## 🚀 Features  
+##  Features  
 
 - **User Management**: Secure registration, login, and authentication (JWT/Session-based).  
 - **Product Management**: Create, update, delete, and retrieve product details.  
@@ -15,7 +15,7 @@ A robust and scalable backend system designed for managing an e-commerce platfor
 - **RESTful API**: Well-structured and documented endpoints for seamless integration.  
 - **Scalability**: Optimized to handle high traffic efficiently.  
 
-## 🛠 Tech Stack  
+## Tech Stack  
 
 - **Frontend**: [e.g., React.js]  
 - **Backend**: [e.g., Node.js + Express.js, Django]  
@@ -28,7 +28,7 @@ A robust and scalable backend system designed for managing an e-commerce platfor
 
 A simple **React.js** project styled with **Tailwind CSS** and utilizing **React Router DOM** for navigation. This project features a clean, minimalist UI with a centered "Welcome to Home" text and basic routing.  
 
-## 🚀 **Features**  
+##  **Features**  
 - **React.js Frontend** – Component-based development for efficiency.  
 - **Tailwind CSS** – Utility-first styling for rapid UI design.  
 - **React Router DOM** – Enables seamless client-side routing.  
@@ -41,27 +41,7 @@ A simple **React.js** project styled with **Tailwind CSS** and utilizing **React
 - **Frontend Framework:** React.js  
 - **Styling:** Tailwind CSS  
 - **Routing:** React Router DOM  
-- **Build Tool:** Vite *(Optional, if used)*  
-
----
-**Milestone 9**
-CreateProduct Component
-
-Overview
-
-The CreateProduct component is a React functional component that allows users to create a product by filling out a form with details such as email, name, description, category, tags, price, stock, and images.
-
-Features
-
-Form inputs for product details
-
-File upload functionality for product images
-
-Image preview before submission
-
-Category selection from a predefined list
-
-Uses React state (useState) to manage form data
+- **Build Tool:** Vite *(Optional, if used)*
 
 **MILESTONE 3**
 Key Features of Milestone 3 🛠
@@ -118,3 +98,22 @@ In this milestone, we focused on frontend development with guidance from a mento
 
 Building the Sign-Up Page using HTML and CSS.
 Adding form validation to ensure users input valid data before submission.
+
+**Milestone 9**
+CreateProduct Component
+
+Overview
+
+The CreateProduct component is a React functional component that allows users to create a product by filling out a form with details such as email, name, description, category, tags, price, stock, and images.
+
+Features
+
+Form inputs for product details
+
+File upload functionality for product images
+
+Image preview before submission
+
+Category selection from a predefined list
+
+Uses React state (useState) to manage form data
